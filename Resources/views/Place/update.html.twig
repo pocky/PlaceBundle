@@ -1,0 +1,14 @@
+{% extends 'BlackPlaceBundle:Place:base.html.twig' %}
+
+{% block body %}
+    <header>
+        <h2>Place Edit</h2>
+    </header>
+
+    <form id="validate" class="main" action="{{ path('place_update', { 'value': document.id }) }}"
+          method="post" {{ form_enctype(form) }}>
+
+    {{ form_rest(form) }}
+
+    </form>
+{% endblock %}

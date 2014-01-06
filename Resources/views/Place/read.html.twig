@@ -1,0 +1,15 @@
+{% extends 'BlackPlaceBundle:Place:base.html.twig' %}
+
+{% set path = path is defined ? path : '' %}
+
+{% block body %}
+    <header>
+        <h2>Place Show</h2>
+    </header>
+
+    {% if document %}
+        <h3>{{ document.name }}</h3>
+
+    {% endif %}
+
+{% endblock %}

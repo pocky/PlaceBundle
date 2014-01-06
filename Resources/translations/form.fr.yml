@@ -1,0 +1,31 @@
+black:
+    bundle:
+        place:
+            type:
+                place:
+                    name:
+                        label: Nom du lieu
+                    description:
+                        label: Description du lieu
+                    address:
+                        label: Addresse postale
+                    containedIn:
+                        label: Fait parti d'un autre lieu
+                    events:
+                        label: Evénements
+                    faxNumber:
+                        label: Numéro de fax
+                    geo:
+                        label: Emplacement géographique
+                    logo:
+                        label: Logo
+                    maps:
+                        label: Plans
+                    openingHoursSpecification:
+                        label: Horaires d'ouvertures
+                    photos:
+                        label: Photos
+                    reviews:
+                        label: Critiques
+                    telephone:
+                        label: Téléphone
