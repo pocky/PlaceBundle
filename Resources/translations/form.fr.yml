@@ -10,7 +10,7 @@ black:
                     address:
                         label: Addresse postale
                     containedIn:
-                        label: Fait parti d'un autre lieu
+                        label: Fait partie d'un autre lieu
                     events:
                         label: Evénements
                     faxNumber:
