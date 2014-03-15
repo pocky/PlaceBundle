@@ -8,7 +8,7 @@ black:
                     description:
                         label: Description du lieu
                     address:
-                        label: Addresse postale
+                        label: Adresse postale
                     containedIn:
                         label: Fait partie d'un autre lieu
                     events:
