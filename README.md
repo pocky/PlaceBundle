@@ -1,0 +1,4 @@
+PlaceBundle
+===========
+
+[WIP] Place Management
